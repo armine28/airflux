@@ -25,4 +25,5 @@ mvn spring-boot:run
 ### Unit tests
 mvn test
 ### Integration tests
-mvn verify *(they do not run actually, dunno why mvn is not executing them)*
+mvn verify
+ 
