@@ -21,10 +21,10 @@ public class SwaggerConfig {
                 .select()
                 .apis(RequestHandlerSelectors.any())
                 .paths(PathSelectors.any())
-                .build();
+                .build()
+                .apiInfo(apiInfo());
     }
 
-    //TODO dunno why swagger is not picking this up, strange
     private ApiInfo apiInfo() {
         return new ApiInfo(
                 "AirFlux REST API",
